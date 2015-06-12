@@ -24,7 +24,7 @@ $headingColor: #fff;
 $mainFontSize: 64pt;
 $mainFont: 'Futura', Helvetica, sans-serif;
 $headingFont: 'Futura', Helvetica, sans-serif;
-$headingTextShadow: 2px 2px solid black;
+$headingTextShadow: normal;
 $headingLetterSpacing: normal;
 $headingTextTransform: normal;
 $headingFontWeight: normal;
@@ -58,6 +58,7 @@ section.has-light-background {
 .reveal h3,
 .reveal h4 {
   text-align: left;
+  text-shadow: 5px 5px black;
 }
 
 .presenters {
