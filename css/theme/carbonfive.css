@@ -278,15 +278,15 @@ body {
   display: flex;
   flex-direction: row; }
   .presenters .presenter {
-    disply: flex;
+    display: flex;
     flex-direction: column;
     width: 50%;
     text-align: center;
     font-size: 0.8em; }
     .presenters .presenter .avatar {
       display: block;
+      width: 100%;
       margin: 0 auto;
-      width: 66%;
       border-width: 0.5em; }
 
 p {

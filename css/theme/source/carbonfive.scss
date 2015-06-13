@@ -66,7 +66,7 @@ section.has-light-background {
   flex-direction: row;
 
   .presenter {
-    disply: flex;
+    display: flex;
     flex-direction: column;
     width: 50%;
     text-align: center;
@@ -74,8 +74,8 @@ section.has-light-background {
 
     .avatar {
       display:block;
+      width: 100%;
       margin: 0 auto;
-      width: 66%;
       border-width: 0.5em;
     }
   }
